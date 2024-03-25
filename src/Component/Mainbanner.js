@@ -15,7 +15,7 @@ const Mainbanner = () => {
         <h3 className=" text-4xl font-bold text-center pt-4">
           Front-End React Developer
         </h3>
-        <h3 className=" text-lg text-gray-600 text-center py-4">
+        <h3 className=" text-lg text-gray-600 text-center py-4 px-4">
           Hi, I'm Utpal Kumar. A passionate Front-end React Developer based in
           Roorkee, Uttarakhand, India. 📍
         </h3>
