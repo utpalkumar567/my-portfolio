@@ -10,7 +10,7 @@ const Footer = () => {
         </span>
       </div>
       <div className=" flex justify-center gap-4 pt-4 ">
-        <span>
+        <span className="transition duration-300 ease-in-out hover:-translate-y-1">
           <a href="https://www.linkedin.com/in/utpal-kumar-247625215/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ const Footer = () => {
             </svg>
           </a>
         </span>
-        <span>
+        <span className="transition duration-300 ease-in-out hover:-translate-y-1">
           <a href="https://github.com/utpalkumar567/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
