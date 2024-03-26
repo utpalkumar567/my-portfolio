@@ -3,8 +3,8 @@ import image from "../hero-img.jpeg";
 
 const Mainbanner = () => {
   return (
-    <div className=" bg-gray-50 h-full w-full py-10">
-      <div className=" px-8">
+    <div className=" bg-gray-50 h-full w-full py-10 md:flex md:flex-row-reverse md:justify-center md:items-center md:px-4 md:py-20">
+      <div className=" px-8 md:p-0">
         <img
           className=" h-72 mx-auto border-4 border-black rounded-tl-[60%] rounded-tr-[40%] rounded-br-[30%] rounded-bl-[70%]"
           alt="main"
@@ -12,14 +12,14 @@ const Mainbanner = () => {
         ></img>
       </div>
       <div>
-        <h3 className=" text-4xl font-bold text-center pt-4">
+        <h3 className=" text-4xl font-bold text-center pt-4 md:text-left md:text-5xl md:w-[34rem] md:pb-4">
           Front-End React Developer
         </h3>
-        <h3 className=" text-lg text-gray-600 text-center py-4 px-4">
+        <h3 className=" text-lg text-balance text-gray-600 text-center py-4 px-4 md:text-left md:p-0 md:w-[34rem]">
           Hi, I'm Utpal Kumar. A passionate Front-end React Developer based in
           Roorkee, Uttarakhand, India. 📍
         </h3>
-        <div className=" flex justify-center gap-4 pb-4 ">
+        <div className=" flex justify-center gap-4 pb-4 md:justify-start ">
           <span className="transition duration-300 ease-in-out hover:-translate-y-1">
             <a href="https://www.linkedin.com/in/utpal-kumar-247625215/">
               <svg
@@ -62,11 +62,11 @@ const Mainbanner = () => {
           </span>
         </div>
 
-        <div className="flex flex-col justify-center items-center">
-          <h1 className=" text-lg font-semibold text-gray-700 pb-4 underline underline-offset-2">
+        <div className="flex flex-col justify-center items-center md:flex-row md:pt-36">
+          <h1 className=" text-lg font-semibold text-gray-700 pb-4 underline underline-offset-2 md:pr-4 md:no-underline md:text-xl md:pb-0 md:border-gray-700 md:border-r-2">
             Tech Stack
           </h1>
-          <ul className="flex flex-wrap gap-[2rem] items-center justify-center">
+          <ul className="flex flex-wrap gap-[2rem] items-center justify-center md:pl-12">
             <li>
               <img
                 alt="skill icon"
