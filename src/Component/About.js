@@ -3,7 +3,7 @@ import aboutImg from "../about-img.jpg";
 
 const About = () => {
   return (
-    <div className=" p-8">
+    <div className=" p-16">
       <div>
         <img
           alt="bg"
@@ -18,11 +18,11 @@ const About = () => {
         <h3 className=" text-3xl text-center font-bold p-4">
           Front-end Developer based in Roorkee, Uttarakhand, India
         </h3>
-        <p className=" px-4 pb-4 text-center text-base font-mono">
+        <p className=" px-2 pb-4 text-base text-center">
           Hey, My name is Utpal, and I am a Front-end Developer. I am passionate
           about web technologies and looking to grow in this field.
         </p>
-        <p className="px-4 text-center text-base font-mono">
+        <p className="px-2 text-center text-base">
           My main stack is React.js in combination with Tailwind CSS
         </p>
       </div>
