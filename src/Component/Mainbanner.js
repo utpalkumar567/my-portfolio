@@ -52,18 +52,21 @@ const Mainbanner = () => {
             <li>
               <img
                 alt="skill icon"
+                className=" transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
                 src="https://skillicons.dev/icons?i=html,css,js"
               ></img>
             </li>
             <li>
               <img
                 alt="skill icon"
+                className=" transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
                 src="https://skillicons.dev/icons?i=react,redux,tailwind"
               ></img>
             </li>
             <li>
               <img
                 alt="skill icon"
+                className=" transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
                 src="https://skillicons.dev/icons?i=bootstrap,wordpress,visualstudio"
               ></img>
             </li>
