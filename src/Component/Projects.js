@@ -3,7 +3,7 @@ import youtubeClone from "../youtube-clone.png";
 
 const Projects = () => {
   return (
-    <div className=" bg-gray-50 py-10">
+    <div className=" bg-gray-50 py-10" id="project">
       <div>
         <h1 className=" text-4xl font-bold text-center pb-6 underline">
           Projects

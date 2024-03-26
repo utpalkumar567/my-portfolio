@@ -1,11 +1,12 @@
 import "./App.css";
 import Body from "./Component/Body";
-import Head from "./Component/Head";
+// import Head from "./Component/Head";
+import Navbar from "./Component/Navbar";
 
 function App() {
   return (
     <div>
-      <Head />
+      <Navbar />
       <Body />
     </div>
   );
