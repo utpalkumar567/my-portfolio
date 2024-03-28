@@ -2,6 +2,9 @@ import React, { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const openNav = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <div className="flex place-content-between flex-wrap p-6">
@@ -40,24 +43,28 @@ const Navbar = () => {
       >
         <div className="text-sm md:flex-grow">
           <a
+            onClick={openNav}
             href="/"
             className="block py-2 text-lg font-bold md:px-4 md:inline-block md:mt-0"
           >
             Home
           </a>
           <a
+            onClick={openNav}
             href="#about"
             className="block py-2 text-lg font-bold md:px-4 md:inline-block md:mt-0"
           >
             About
           </a>
           <a
+            onClick={openNav}
             href="#project"
             className="block py-2 text-lg font-bold md:px-4 md:inline-block md:mt-0"
           >
             Project
           </a>
           <a
+            onClick={openNav}
             href="#contact"
             className="block py-2 text-lg font-bold md:px-4 md:inline-block md:mt-0"
           >
