@@ -1,5 +1,6 @@
 import React from "react";
 import youtubeClone from "../youtube-clone.png";
+import npmjsclone from "../npmjsclone.png";
 
 const Projects = () => {
   return (
@@ -50,12 +51,45 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <h1 className=" invisible md:visible md:text-lg md:font-bold">
-          More Projects Comming Soon...
-        </h1>
-        <h1 className=" invisible md:visible md:text-lg md:font-bold">
-          More Projects Comming Soon...
-        </h1>
+        {/* Second Project starts */}
+        <div className=" md:flex md:flex-col md:items-start md:px-16 md:justify-center">
+          <div>
+            <img
+              alt="clone-snippet"
+              src={npmjsclone}
+              className=" w-96 mx-auto border border-black rounded-2xl"
+            ></img>
+          </div>
+          <div>
+            <h1 className=" text-2xl font-bold p-2 text-center">NPMJS Clone</h1>
+            <div className="flex gap-4 justify-center text-sm underline underline-offset-1 font-medium md:pb-4">
+              <span className=" cursor-pointer  hover:text-blue-600 md:text-base">
+                <a
+                  href="https://npmjsclone.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Link
+                </a>
+              </span>
+              <span className=" cursor-pointer  hover:text-blue-600 md:text-base">
+                <a
+                  href="https://github.com/utpalkumar567/npmjs-clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github Link
+                </a>
+              </span>
+            </div>
+            <p className=" text-center px-4 text-base pb-8 md:w-96 md:p-0  md:text-justify">
+              This project is a clone of NPMJS.com built using ReactJS, Tailwind
+              CSS, and React Router DOM. It aims to provide information about
+              Package Name, Description, Versions which are available in npm
+              registry.
+            </p>
+          </div>
+        </div>
         <h1 className=" invisible md:visible md:text-lg md:font-bold">
           More Projects Comming Soon...
         </h1>
