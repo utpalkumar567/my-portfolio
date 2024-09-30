@@ -1,6 +1,7 @@
 import React from "react";
 import youtubeClone from "../youtube-clone.png";
 import npmjsclone from "../npmjsclone.png";
+import megastructure from "../megastructure.png";
 
 const Projects = () => {
   return (
@@ -10,7 +11,7 @@ const Projects = () => {
       </h1>
       {/* After creating more than one project wrap in a div tag from below here and make it flex */}
       <div className="md:flex md:place-content-between md:px-8 md:items-center">
-        <div className=" md:flex md:flex-col md:items-start md:px-16 md:justify-center">
+        <div className=" md:flex md:flex-col md:items-start md:justify-center">
           <div>
             <img
               alt="clone-snippet"
@@ -52,7 +53,7 @@ const Projects = () => {
           </div>
         </div>
         {/* Second Project starts */}
-        <div className=" md:flex md:flex-col md:items-start md:px-16 md:justify-center">
+        <div className=" md:flex md:flex-col md:items-start md:justify-center">
           <div>
             <img
               alt="clone-snippet"
@@ -90,9 +91,38 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <h1 className=" invisible md:visible md:text-lg md:font-bold">
-          More Projects Comming Soon...
-        </h1>
+        {/* Third Project Start here */}
+        <div className=" md:flex md:flex-col md:items-start md:justify-center">
+          <div>
+            <img
+              alt="clone-snippet"
+              src={megastructure}
+              className=" w-96 mx-auto border border-black rounded-2xl"
+            ></img>
+          </div>
+          <div>
+            <h1 className=" text-2xl font-bold p-2 text-center">
+              Mega Structure
+            </h1>
+            <div className="flex gap-4 justify-center text-sm underline underline-offset-1 font-medium md:pb-4">
+              <span className=" cursor-pointer  hover:text-blue-600 md:text-base">
+                <a
+                  href="https://megastructure.co.in/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Link
+                </a>
+              </span>
+            </div>
+            <p className=" text-center px-4 text-base pb-8 md:w-96 md:p-0  md:text-justify">
+              This is a live project developed for the organisation Mega
+              Structure. This website is build on WordPress using elementor. I
+              have handeled the project on my own and have delivered to the
+              client.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
