@@ -7,7 +7,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex place-content-between flex-wrap p-6">
+    <div className="flex justify-between flex-wrap p-6">
       <div className="flex items-center flex-shrink-0 mr-6 md:mr-72">
         <a href="/">
           <span className=" pl-12 font-mono text-2xl font-extrabold cursor-pointer">
@@ -41,7 +41,7 @@ const Navbar = () => {
           isOpen ? "block" : "hidden"
         }`}
       >
-        <div className="text-sm md:flex-grow">
+        <div className="text-sm md:flex-grow md:flex md:justify-end">
           <a
             onClick={openNav}
             href="/"
