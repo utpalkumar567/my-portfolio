@@ -14,7 +14,7 @@ const Projects = () => {
       </h1>
       {/* After creating more than one project wrap in a div tag from below here and make it flex */}
       <div>
-        <div className="md:flex md:place-content-between md:px-8 md:items-center pb-6">
+        <div className="md:flex md:place-content-between md:px-8 md:items-center pb-4">
           {/* First Project */}
           <div className=" md:flex md:flex-col md:items-start md:justify-center">
             <div>
