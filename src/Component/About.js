@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImg from "../about-img.jpg";
+import resume from "../Utpal_Kumar_Resume_Front_end.pdf";
 
 const About = () => {
   return (
@@ -28,15 +29,17 @@ const About = () => {
         <p className="px-2 text-center text-base md:text-left md:px-4">
           My main stack is React.js in combination with Tailwind CSS
         </p>
-        <a
-          href="https://1drv.ms/b/s!AkKdCkurtUYRcLzHM5kxSwvEzGw?e=VmfUh6"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button className="mx-auto flex justify-center md:block text-base md:text-left bg-slate-600 text-white rounded-xl px-6 py-2 md:mx-4 my-2 hover:bg-slate-400 hover:text-slate-100">
+
+        <button className="mx-auto flex justify-center md:block text-base md:text-left bg-slate-600 text-white rounded-xl px-6 py-2 md:mx-4 my-2 hover:bg-slate-400 hover:text-slate-100">
+          <a
+            href={resume}
+            download="Utpal_Kumar_Resume_Front_end.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
             Download Resume
-          </button>
-        </a>
+          </a>
+        </button>
       </div>
     </div>
   );
